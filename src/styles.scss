@@ -1,0 +1,31 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+}
+
+.basic-container {
+    padding: 30px;
+}
+
+.version-info {
+    font-size: 8pt;
+    float: right;
+}
+
+/* Add application styles & imports to this file! */
+.main {
+}
+
+.success-snackbar {
+    background-color: #43a047; /* Green color */
+    color: white;
+}
+
+/* Styles for error snackbar */
+.error-snackbar {
+    background-color: #d32f2f; /* Red color */
+    color: white;
+}
+
